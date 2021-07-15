@@ -1,0 +1,126 @@
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    max-width: 1000px;
+    margin:0 auto;
+    background-color: rgba(33, 34, 34, 0.733);
+}
+
+#mainbody{
+   
+  margin: 0 auto;
+
+}
+
+/*starts header part*/
+
+.head {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(228, 225, 212);
+    margin-bottom:5px;
+    box-sizing: border-box;
+}
+.poster{
+    
+   height: 200px;
+    width:20%;
+    float:left;
+}
+.poster img{
+    
+    height: 200px;
+   
+ }
+
+.title
+{
+    width: 80%;
+    float:right;
+    
+    padding-top: 30px;
+    
+}
+
+.title h1{
+    color: rgba(224, 33, 33, 1);
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+}
+
+/*header part finished*/
+
+/*starts content part*/
+#maincontent{
+    padding:4px;
+background-color:rgba(247, 76, 76, 0.637);
+}
+.tabledesc table{
+    margin:0 auto;
+    font-family: Arial, sans-serif;
+    color: rgb(245, 239, 252);
+    font-size: 14px;
+    
+
+}
+
+#maincontent p
+{
+    font: Arial, sans-serif 14;
+    color:rgb(242, 239, 245);
+    text-align: center;
+    padding: 4px;
+
+
+}
+
+.iframed iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+.recomned{
+    padding: 40px 0px  10px 4px;
+    color:rgb(243, 240, 247);
+}
+  .recomned ul {
+    list-style: none;
+    padding-bottom: 40px;
+}
+ .recomned li{
+  display: inline;  
+  float:left;
+  padding :0px 10px;
+ 
+}
+
+.recomned a{
+    text-decoration: none;
+    color:rgb(238, 234, 241);
+
+}
+.recomned a:hover{
+    color:rgb(20, 16, 16);
+    font-size: 18px;
+
+}
+
+.recomned a:visited{
+    color:rgb(42, 38, 105);
+}
+
+footer{
+     
+    padding: 10px 50px ;
+    font-size: 12px;
+    color:azure;
+    background: rgb(226, 101, 43);
+    position:fixed;
+    bottom:0;
+
+}
